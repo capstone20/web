@@ -8,8 +8,6 @@ error_reporting(0);
   $db_name = 'smartpt';
   $conn = new mysqli($host, $db_user, $db_pw, $db_name);
 
-
-
    mysqli_query($conn, "set session character_set_connection=utf8;");
 
    mysqli_query($conn, "set session character_set_results=utf8;");
